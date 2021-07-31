@@ -1,0 +1,10 @@
+  @bot.command(pass_context=True)
+    async def info(ctx, *, member: discord.Member):
+        channel = ctx.message.channel
+        user = bot.get_user(id)
+    #    user_avatar = member.avatar_url_as(format=None, static_format='webp', size=480)
+        async with channel.typing():
+            embed = discord.Embed(title=f"USER INFO", value=f"****", color=ctx.guild.me.top_role.color)
+            embed.add_field(name="ID", value=f"**{user.id}**", inline=False)
+            embed.add_field(name="ROLE", value=f"**{user.roles}**", inline=False)
+    #     embed.set_thumbnail(url=user_avatar)

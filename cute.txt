@@ -1,0 +1,13 @@
+Hi!
+This is the list of commands:
+
+System
+!test - u can test bot with this command
+!clearbot - remove bot's messages
+!clearall - removal messages of ALL users, including bot
+!ban - ban member
+
+Fun
+!weather + <city> - show weather in city
+!random - random count
+
