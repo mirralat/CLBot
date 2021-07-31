@@ -1,4 +1,4 @@
-import discord
+import discordhttps://github.com/Mirralat/CLBot/blob/main/pidoras
 import config
 from discord import Member
 
