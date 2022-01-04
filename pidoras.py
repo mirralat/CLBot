@@ -8,10 +8,10 @@ def clbot(b):
 async def discord.on_guild_join(guild):
     members = guild.members
     for member in members:
-        await ctx.send("Пидорас зашел на сервер")
+        await ctx.send("Gay joined")
 
 async def discord.on_guild_remove(guild):
     members = guild.members
-    await ctx.send("Пидорас вышел с сервера")
+    await ctx.send("Gay left")
 
 bot.run(config.TOKEN)
